@@ -21,6 +21,9 @@ body {
     background: #7B6FDE;
     width: 20%;
     margin: auto;
+    /* bonus */
+    position: sticky;
+    top: 65px
   }
   
   div {
@@ -66,7 +69,8 @@ body {
     position: absolute;
     right:0;
     bottom:0;
-    z-index: 100;
+    /* bonus */
+    z-index: 2;
   }
   
   #reality {
@@ -75,7 +79,7 @@ body {
     right: 0;
     bottom: 150px;
     /* Bonus */
-    z-index: 100;
+    z-index: 4;
   }
   
   #mind {
@@ -89,6 +93,8 @@ body {
     position: fixed;
     right: 0;
     top: 0;
+    /* bonus */
+    z-index: 3;
   }
   
   #scroll {
